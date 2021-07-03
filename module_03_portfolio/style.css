@@ -4,13 +4,19 @@ body {
 .container {
     margin: 0 40px;
 }
-.header-left, .header-right {
-    width: 50%;
-    display: inline;
-}
-.header-left{
+.header-left {
     float: left;
+    width: 65%;
+    display: inline;
+    
 }
+.header-right {
+    float: left;
+    width: 35%;
+    display: inline;
+    
+}
+
 h1 {
     font-size: 46px;
     color:seagreen;
@@ -23,6 +29,11 @@ h1 {
     background-color: tomato;
     display: inline;
     padding: 3px 15px;
+    border-radius: 5px;
+}
+.short-bio {
+    margin-right: 35px;
+    margin-bottom: 30px;
 }
 .hire-me {
     text-decoration: none;
