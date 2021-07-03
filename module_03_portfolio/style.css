@@ -1,7 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
-.container {
+section {
     margin: 0 40px;
 }
 .header-left {
@@ -16,7 +16,6 @@ body {
     display: inline;
     
 }
-
 h1 {
     font-size: 46px;
     color:seagreen;
@@ -28,7 +27,7 @@ h1 {
     color:seashell;
     background-color: tomato;
     display: inline;
-    padding: 3px 15px;
+    padding: 3px 10px;
     border-radius: 5px;
 }
 .short-bio {
@@ -37,7 +36,7 @@ h1 {
 }
 .hire-me {
     text-decoration: none;
-    padding: 5px;
+    padding: 5px 10px;
     font-weight: 600;
     color:seashell;
     border-radius: 5px;
