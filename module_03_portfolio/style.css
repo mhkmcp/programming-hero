@@ -1,5 +1,41 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+.container {
+    margin: 0 40px;
+}
+.header-left, .header-right {
+    width: 50%;
+    display: inline;
+}
+.header-left{
+    float: left;
+}
 h1 {
     font-size: 46px;
+    color:seagreen;
+}
+.orange-color {
+    color: orange;
+}
+.title {
+    color:seashell;
+    background-color: tomato;
+    display: inline;
+    padding: 3px 15px;
+}
+.hire-me {
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 600;
+    color:seashell;
+    border-radius: 5px;
+    background-color: seagreen;
+}
+img {
+    float: right;
+    width: 440px;
+    height: 410px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
