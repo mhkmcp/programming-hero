@@ -72,6 +72,12 @@ h1 {
     color: orange;
     margin-left: 40px;
 }
+.experience h2 {
+    color: tomato;
+}
+.experience h3 {
+    color: seagreen;
+}
 .experience-body {
     display: flex;
 }
