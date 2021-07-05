@@ -57,8 +57,48 @@ h1 {
     background-position-x: right;
     background-position-y: bottom;
 }
-
 .dream-big img {
     float: left;
     width: 80%;
 } 
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+
+}
+.experience h1 {
+    color: orange;
+    margin-left: 40px;
+}
+.experience-body {
+    display: flex;
+}
+.experience-body  .half-width {
+    padding-left: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 4px 15px gray;
+    border-left: 5px solid black;
+}
+#front-end {
+    margin-right: 20px;
+    border-radius: 7px solid;
+    border-image: linear-gradient(seagreen, gray);
+    border-image-slice: 1;
+}
+#back-end {
+    margin-left: 10px;
+    border-radius: 7px solid;
+    border-image: linear-gradient(red, yellow);
+    border-image-slice: 1;
+}
+
+footer > p {
+    text-align: center;
+    padding-top: 15px;
+    border-top: 1px solid black;
+}
+.tomato-color {
+    color: tomato;
+}
