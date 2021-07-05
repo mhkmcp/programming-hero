@@ -2,23 +2,18 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-section.top-banner {
+.top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    display: flex;
 }
-/* issue here */
-.header-left {
-    float: left;
-    width: 65%;
-    display: inline;
+.top-banner  > div {
+    margin: 20px 40px;
+}
+.half-width{
+    width: 50%;
  }
  
-.header-right {
-    float: left;
-    width: 35%;
-    display: inline;  
-} 
-
 h1 {
     font-size: 46px;
     color:seagreen;
@@ -34,21 +29,19 @@ h1 {
     border-radius: 5px;
 }
 .short-bio {
-    margin-right: 35px;
+    font-weight: 400;
+    margin-right: 5px;
     margin-bottom: 30px;
 }
-.hire-me {
+.link-hire-me {
     text-decoration: none;
-    padding: 5px 10px;
-    font-weight: 600;
+    padding: 10px 30px;
+    font-weight: 700;
     color:seashell;
     border-radius: 5px;
-    background-color: seagreen;
+    background-image: radial-gradient(tomato, orange);
 }
-.header-right > img {
+img {
     float: right;
-    width: 440px;
-    height: 410px;
-    border-radius: 50%;
-    margin-top: 10px;
+    width: 80%;
 } 
