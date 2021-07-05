@@ -72,6 +72,12 @@ h1 {
     color: orange;
     margin-left: 40px;
 }
+.experience h2 {
+    color: tomato;
+}
+.experience h3 {
+    color: orange;
+}
 .experience-body {
     display: flex;
 }
@@ -84,7 +90,7 @@ h1 {
 #front-end {
     margin-right: 20px;
     border-radius: 7px solid;
-    border-image: linear-gradient(seagreen, gray);
+    border-image: linear-gradient(yellow, seagreen);
     border-image-slice: 1;
 }
 #back-end {
