@@ -67,7 +67,7 @@ h1 {
     background-repeat: no-repeat;
     background-position-y: bottom;
 
-}
+}```````````````````````````````````````````````
 .experience h1 {
     color: orange;
     margin-left: 40px;
@@ -76,11 +76,7 @@ h1 {
     color: tomato;
 }
 .experience h3 {
-<<<<<<< HEAD
-    color: seagreen;
-=======
     color: orange;
->>>>>>> module_04_portfolio
 }
 .experience-body {
     display: flex;
