@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+
+    <style>
+        .swiming div {
+            border: 1px dashed palegreen;
+            width: 200px;
+        }
+
+        #boy {
+            position: relative;
+            top: 75px;
+            z-index: 20;
+        }
+
+        #ring {
+            position: relative;
+            z-index: 1;
+        }
+
+        #water {
+            position: relative;
+            top: -75px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <h1>This is my header</h1>
+        <h1>I am learning position</h1>
+        <h2>I have higher positon</h2>
+    </section>
+
+    <section class="swiming">
+        <div id="boy">
+            <img src="images/boy.svg" alt="">
+        </div>
+        <div id="ring">
+            <img src="images/ring.svg" alt="">
+        </div>
+        <div id="water">
+            <img src="images/water.svg" alt="">
+        </div>
+    </section>
+
+</body>
+
+</html>
