@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albumn using Relative Postion and Flex Box</title>
+
+    <style>
+        .photo-album {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .photo-frame {
+            width: 300px;
+            height: 180px;
+            border: 2px solid green;
+            border-radius: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .photo img {
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        .photo-detail {
+            display: none;
+            position: absolute;
+            border-radius: 20px;
+            width: 100%;
+            height: 100%;
+            color: whitesmoke;
+            top: 0;
+        }
+
+        .photo-detail h3 {
+            color: whitesmoke;
+            text-align: center;
+            background-color: black;
+        }
+
+        .photo-frame:hover .photo-detail {
+            display: block;
+            background-color: rgba(248, 208, 107, 0.55);
+        }
+
+        .photo-frame:hover .photo {
+            transform: scale(1.3) rotate(12deg);
+            transition: transform 1s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My Awesome Photo Albumn with tiger mama</h1>
+    <section>
+        <h3>Photo Albumn</h3>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo"><img src="images/tiger.jpeg" alt=""></div>
+                <div class="photo-detail">
+                    <h3>Tiger Mama Candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vitae velit provident culpa iure
+                        cum
+                        quod! Corporis molestias eveniet sapiente?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo"><img src="images/tiger.jpeg" alt=""></div>
+                <div class="photo-detail">
+                    <h3>Tiger Mama Candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vitae velit provident culpa iure
+                        cum
+                        quod! Corporis molestias eveniet sapiente?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo"><img src="images/tiger.jpeg" alt=""></div>
+                <div class="photo-detail">
+                    <h3>Tiger Mama Candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vitae velit provident culpa iure
+                        cum
+                        quod! Corporis molestias eveniet sapiente?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo"><img src="images/tiger.jpeg" alt=""></div>
+                <div class="photo-detail">
+                    <h3>Tiger Mama Candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vitae velit provident culpa iure
+                        cum
+                        quod! Corporis molestias eveniet sapiente?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo"><img src="images/tiger.jpeg" alt=""></div>
+                <div class="photo-detail">
+                    <h3>Tiger Mama Candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vitae velit provident culpa iure
+                        cum
+                        quod! Corporis molestias eveniet sapiente?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo"><img src="images/tiger.jpeg" alt=""></div>
+                <div class="photo-detail">
+                    <h3>Tiger Mama Candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vitae velit provident culpa iure
+                        cum
+                        quod! Corporis molestias eveniet sapiente?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
