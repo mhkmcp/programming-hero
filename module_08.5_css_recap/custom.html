@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable, Calc</title>
+
+    <style>
+        :root {
+            --main-color: slateblue;
+            --border-color: lightpink;
+            --side-width: 200px;
+        }
+
+        h1 {
+            color: var(--main-color);
+            border: 2px solid var(--border-color);
+        }
+
+        p {
+            color: var(--main-color);
+        }
+
+        .side-nav,
+        .blogs {
+            float: left;
+            height: 200px;
+        }
+
+        aside {
+            background-color: tomato;
+            width: var(--side-width);
+        }
+
+        .blogs {
+            background-color: turquoise;
+            width: calc(100% - 2 * var(--side-width));
+        }
+
+        footer {
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Exploring Custom Property</h1>
+        <p>Welcome to my website</p>
+    </header>
+
+    <main>
+
+        <aside class="side-nav">
+            <h3>My Side Navigation</h3>
+        </aside>
+
+        <div class="blogs">
+            <h4>Blogs</h4>
+        </div>
+
+    </main>
+
+    <footer>
+        <small>copyright</small>
+    </footer>
+</body>
+
+</html>
