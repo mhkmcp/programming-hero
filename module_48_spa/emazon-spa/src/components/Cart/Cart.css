@@ -1,0 +1,35 @@
+.cart-container {
+    margin: 10px 20px;
+}
+
+span {
+    float: right;
+}
+h3 {
+    text-align: center;
+}
+.items-order {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+.order-total {
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.review-btn {
+    background-color: goldenrod;
+    color: white;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px;
+}
