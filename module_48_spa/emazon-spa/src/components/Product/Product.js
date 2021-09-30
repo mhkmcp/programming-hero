@@ -1,7 +1,8 @@
-import React from 'react';
+import React from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import Rating from 'react-rating'
 
 import './Product.css'
 
@@ -23,7 +24,15 @@ const Product = (props) => {
                         <p>only {stock} left in stock - order soon</p>
                     </div>
                     <div className="product-right">
-                        <p>rating: {star}</p>
+                        <p>Rating:  
+                            <Rating 
+                                initialRating={star} 
+                                emptySymbol="far fa-star"
+                                fullSymbol="fas fa-star" 
+                                readonly 
+                            /> 
+                            </p>
+                        <p> {starCount}s reviews</p>
                         <h4 className="feature">Feature</h4>
                     </div>
                 </div>

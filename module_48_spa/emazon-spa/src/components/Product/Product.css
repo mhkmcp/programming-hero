@@ -21,6 +21,9 @@
     color: goldenrod;
     margin-top: 10px;
 }
+.fa-star {
+    color: gold;
+}
 .cart-btn {
     width: 180px;
     height: 35px;
@@ -30,5 +33,4 @@
     border: 1px solid lightgray;
     border-radius: 10px;
     cursor: pointer;
-
 }
