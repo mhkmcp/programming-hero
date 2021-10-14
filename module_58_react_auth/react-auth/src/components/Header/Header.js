@@ -12,9 +12,11 @@ const Header = () => {
     return (
         <div className="header">
             {
-                user.displayName &&  <h2>Welcome { user.displayName }</h2>
+                user?.displayName &&  <h2>Welcome { user.displayName }</h2>
             }
             <Link to="/home">Home</Link>
+            <Link to="/shipping">Shipping</Link>
+            <Link to="/placeorder">Place Order</Link>
             <Link to="/register">Register</Link>
             <Link to="/login">Login</Link>    
             { 

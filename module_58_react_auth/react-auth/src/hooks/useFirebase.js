@@ -16,7 +16,6 @@ const useFirebase = () => {
     const [user, setUser] = useState({});
     const [error, setError] = useState('');
 
-
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
     const githubProvider = new GithubAuthProvider();
@@ -55,8 +54,11 @@ const useFirebase = () => {
             if(user) {
                 setUser(user);
             }
+            else {
+                setUser({});
+            }
         })
-    }, [auth]) 
+    }, []); 
 
     return {
         user,
