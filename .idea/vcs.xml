@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/module_27_shopping_cart/shopping-cart" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/module_48_spa/ema-john-simple-resources" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/module_53_ema_router/ema-john-router" vcs="Git" />
+  </component>
+</project>
