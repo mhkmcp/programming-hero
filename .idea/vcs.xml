@@ -5,5 +5,8 @@
     <mapping directory="$PROJECT_DIR$/module_27_shopping_cart/shopping-cart" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/module_48_spa/ema-john-simple-resources" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/module_53_ema_router/ema-john-router" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/module_59_private_route_ema_jhon/ema-john-private-route" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/module_64_mongo_crud/app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/module_66_ecommerce/ecommerce" vcs="Git" />
   </component>
 </project>
